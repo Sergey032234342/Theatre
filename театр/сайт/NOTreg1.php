@@ -1,0 +1,28 @@
+<?php
+echo "<script>alert('В пароле должны присутствовать большие буквы и цифры');</script>";
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="main2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <style>
+        body { background: url(2.jpg); } 
+      </style>
+</head>
+<body>
+<div class="div007">
+    <header>Регистрация:</header>
+</div>
+<form action="do_register.php" method="post">
+<input type="text" class="form41" name="FIO" id="FIO"  placeholder="Введите имя"> 
+    <input type="password" class="form41" name="pass" id="pass" onkeyup="var yratext=/['%','{','*','+','&','|']/; if(yratext.test(this.value)) alert('Введены запрещенные символы')" placeholder="Введите пароль (от 4 до 16 символов)">
+    <input type="password" class="form41" name="pass2" id="pass2" onkeyup="var yratext=/['%','{','*','+','&','|']/; if(yratext.test(this.value)) alert('Введены запрещенные символы')" placeholder="Повторите пароль">
+    <input type="text" class="form41" name="login" id="login"  placeholder="Введите ник ">
+    <button class="form987" type="submit">Зарегистрировать</button>    
+</form>
+</body>
+</html>

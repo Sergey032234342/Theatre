@@ -1,0 +1,27 @@
+<?php
+echo "<script>alert('Пользователь не найден');</script>";
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="main2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <style>
+        body { background: url(2.jpg); } 
+      </style>
+</head>
+<body>
+<div class="div007">
+    <header>Вход:</header>
+</div>
+<form action="do_vhod.php" method="post">
+<input type="text" class="form41" name="login" id="login" placeholder="Введите имя">
+    <input type="password" class="form41" name="pass" id="pass" onkeyup="var yratext=/['%','{','*','+','&','|']/; if(yratext.test(this.value)) alert('Введены запрещенные символы')" placeholder="Введите пароль">
+    <button class="form987" type="submit">войти</button>    
+</form>
+
+</body>
+</html>

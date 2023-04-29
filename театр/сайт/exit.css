@@ -1,0 +1,55 @@
+.div1{
+    width: 100%;
+    height: 50px;
+    /* background-color: black; */
+    text-align: center;
+    padding-top: 10px;
+    
+    /* border-bottom: 1px solid white; */
+}
+
+header{
+    color: rgb(244, 244, 244);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div2{
+    width: 300px;
+    text-align: center;
+    margin-left: 10px;
+    top: 10px;
+    position: relative;
+    background: rgb(12, 12, 12);
+    height: 300px;
+    border-radius: 1.5em;
+}
+
+.outerdiv2{
+    margin: 70px auto;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    width: 320px;
+    height: 320px;
+    background: linear-gradient(70deg, #ff7a20, violet, rgb(26, 67, 202));
+    border-radius: 2em;
+    align-items: center;
+}
+
+.CheckNagr{
+    top: 70px;
+    position: relative;
+}
+.Exit{
+    top: 160px;
+    position: relative;
+}
+
+button{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 0.75em;
+    font-size: large;
+    color: aliceblue;
+    width: 200px;
+}
